@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Admin</title>
+</head>
+<body>
+<BODY BGCOLOR="#8FBAE6"></BODY>
+
+<h1 style="color:#193D61">ADMIN USERS</h1>
+
+<div>
+    <input type="number" id="idAdmin"  hidden>
+    FULL NAME <input type="text" id="nameAdmin" name="name" placeholder="Insert your full name">
+    EMAIL <input type="email" id="emailAdmin" placeholder="Insert your email">
+    PASSWORD <input type="password" id="passwordAdmin" placeholder="Insert your password">
+
+</div>
+
+<div>
+    <div>
+        <button  class="btn-create" style="background-color:#364B61; border-color:#193C61; color:white;">Guardar</button>
+        <button  class="btn-update" style="background-color:#364B61; border-color:#193C61; color:white;">Actualizar</button>
+        <button  class="btn-back" style="background-color:#364B61; border-color:#193C61; color:white;">Volver</button>
+        <button class="btn-clean" 
+        style="background-color:#364B61; border-color:#193C61; color:white;">Clean</button>
+        <div id="resultadoAdmin"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/Admin.js"></script>
+</div>
+</body>
+</html>
